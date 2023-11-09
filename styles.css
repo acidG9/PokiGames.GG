@@ -1,0 +1,184 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #9400FF;
+  color: #72FFFF;
+}
+
+img {
+  border-radius: 8px;
+  transition: transform .2s;
+}
+
+img:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  }
+
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #9400FF;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+
+.rotatembl {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.icon {
+  color: #9400FF;
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #72FFFF;
+}
+
+.features {
+  text-align: center;
+  font-family: 'Montserratp', sans-serif;
+}
+
+.h3f {
+  font-family: 'Montserratp-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features {
+  padding: 7% 15% 4% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #9400FF;
+  color: #FFF;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.pressimage {
+width: 15%;
+margin: 3% 3%;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testdiv {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5% 7%;
+}
+
+.pribtn {
+  width: 80%;
+}
+
+#cta {
+  background-color: #9400FF;
+  color: #fff;
+  padding: 5% 15% 3% 15%;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px 50px 30px;
+}
+
+.ctaheading {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+@media (max-width:1028px) {
+
+#title {
+  text-align: center;
+}
+
+.rotatembl {
+  position: static;
+  transform: rotate(0);
+}
+
+
+}
+
+.glow {
+  color: #9400FF;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #72FFFF, 0 0 40px #72FFFF, 0 0 50px #72FFFF, 0 0 60px #72FFFF, 0 0 70px #72FFFF;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #BEADFA, 0 0 40px #BEADFA, 0 0 50px #BEADFA, 0 0 60px #BEADFA, 0 0 70px #BEADFA, 0 0 80px #BEADFA;
+  }
+}
