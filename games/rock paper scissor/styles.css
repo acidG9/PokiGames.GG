@@ -1,0 +1,158 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #9400FF;
+  color: #72FFFF;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  }
+
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.soon {
+  display: none;
+}
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #9400FF;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.container-fluid {
+  padding: 5% 15% 5%;
+}
+
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+
+.rotatembl {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.icon {
+  color: #9400FF;
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #72FFFF;
+}
+
+.features {
+  text-align: center;
+  font-family: 'Montserratp', sans-serif;
+}
+
+.h3f {
+  font-family: 'Montserratp-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features {
+  padding: 7% 15% 4% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #9400FF;
+  color: #FFF;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.pressimage {
+width: 15%;
+margin: 3% 3%;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testdiv {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5% 7%;
+}
+
+.pribtn {
+  width: 80%;
+}
+
+#cta {
+  background-color: #9400FF;
+  color: #fff;
+  padding: 5% 15% 3% 15%;
+  text-align: center;
+}
+
+.ctaheading {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+@media (max-width:1028px) {
+
+#title {
+  text-align: center;
+}
+
+.rotatembl {
+  position: static;
+  transform: rotate(0);
+}
+
+
+}
+
