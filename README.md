@@ -1,1 +1,1 @@
-link : https://acidg9.github.io/PokiGames.GG/
+This is my first website using bootstrap and JS.
